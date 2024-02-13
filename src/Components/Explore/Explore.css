@@ -1,0 +1,23 @@
+@media (max-width:600px) {
+    .explore {
+        width: 350px !important;
+    }
+
+    .rounded-circle {
+        width: 40px !important;
+        height: 40px !important;
+        margin-top: 20px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .push {
+        margin-bottom: 200px;
+    }
+    .testImg{
+        flex-direction: column;
+    }
+}

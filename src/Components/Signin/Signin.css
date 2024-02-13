@@ -1,0 +1,66 @@
+.button button{
+    background-color:transparent;
+    border: none;
+    color:grey;
+    margin: 10px;
+}
+.but{
+    background-color:transparent;
+    border: none;
+    border:2px solid #8064A2;
+    border-radius: 8px;
+}
+.under{
+    border-bottom: 2px solid grey;
+    position:relative;
+}
+.online{
+    position:absolute;
+    bottom:-10px;
+    left:150px;
+    background-color: #F7F5F9;
+    padding:0 10px ;
+}
+.signin{
+    position:relative;
+}
+.signinImg{
+    position: absolute;
+    bottom:0px;
+    left:25px;
+}
+.active{
+    color:#8064A2 !important;
+    border-bottom: 2px solid #8064A2 !important;
+    font-weight: 700;
+}
+@media (max-width:992px) {
+    /* .dis{
+        display: none;
+    } */
+    .signin{
+        flex-direction: column;
+        height: 1080px !important;
+    }
+    .widthSet{
+        width:80vw !important;
+        margin-top: 50px !important;
+    }
+    .signinImg img{
+        width: 70vw !important;
+    }
+}
+@media (max-width:600px) {
+    .adjust1{
+        width:300px !important;
+    }
+    .adjust2{
+        width:258px !important;
+    }
+    .online{
+        left:35%;
+    }
+    .signin{
+        height: 950px !important;
+    }
+}
